@@ -208,7 +208,7 @@ The **Incongruent > Congruent** contrast is particularly relevant to cognitive c
 ## 🖼️ First-Level Results
 
 <p align="center">
-  <img src="assets/first level.jpeg" width="850">
+  <img src="assets/first level.jpg" width="850">
 </p>
 
 *First-level statistical activation maps showing task-related BOLD responses for the modeled Flanker conditions and contrasts.*
