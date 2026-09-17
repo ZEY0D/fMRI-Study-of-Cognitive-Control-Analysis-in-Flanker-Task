@@ -1,4 +1,4 @@
-# 🧠 fMRI Study of Cognitive Control in the Flanker Task
+#  fMRI Study of Cognitive Control in the Flanker Task
 
 <p align="center">
 
