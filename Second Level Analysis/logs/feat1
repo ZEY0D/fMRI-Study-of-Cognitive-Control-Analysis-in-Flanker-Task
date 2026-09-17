@@ -1,0 +1,57 @@
+
+/bin/cp /tmp/feat_7u4n8cyr.fsf design.fsf
+
+/home/dell/fsl/bin/feat_model design
+
+mkdir .files;cp /home/dell/fsl/doc/fsl.css .files;cp -r /home/dell/fsl/doc/images .files/images
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat -gfeatprep
+2242
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 2242  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat -I 1 -flame1
+18846
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 18846 -t ./.flame
+19522
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 19522  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat -flame3
+19816
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 19816  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat -poststats 1
+22449
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 22449  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope1.feat -stop
+26739
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 2242  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat -I 2 -flame1
+27014
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 27014 -t ./.flame
+27690
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 27690  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat -flame3
+27996
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 27996  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat -poststats 1
+30617
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 30617  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope2.feat -stop
+34419
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 2242  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat -I 3 -flame1
+34692
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 34692 -t ./.flame
+35391
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 35391  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat -flame3
+35711
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 35711  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat -poststats 1
+38334
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 38334  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat -stop
+42095
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 26739,34419,42095  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat/cope3.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_2ndLevel.gfeat -stop
+42234

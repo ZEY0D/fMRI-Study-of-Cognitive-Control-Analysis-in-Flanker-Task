@@ -1,0 +1,26 @@
+
+/bin/cp /tmp/feat_5y6j2ly0.fsf design.fsf
+
+mkdir .files;cp /home/dell/fsl/doc/fsl.css .files;cp -r /home/dell/fsl/doc/images .files/images
+
+/home/dell/fsl/bin/fsl_sub -T 10 -l logs -N feat0_init   /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -I 1 -init
+4926
+
+/home/dell/fsl/bin/fsl_sub -T 44 -l logs -N feat2_pre -j 4926  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -I 1 -prestats
+4987
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 4987  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -stop
+5633
+
+/bin/cp /tmp/feat_5_vrx9_t.fsf design.fsf
+
+/home/dell/fsl/bin/feat_model design
+
+/home/dell/fsl/bin/fsl_sub -T 2 -l logs -N feat3_film   /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -I 1 -stats
+757
+
+/home/dell/fsl/bin/fsl_sub -T 119 -l logs -N feat4_post -j 757  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -poststats 0 
+944
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 757,944  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold.feat -stop
+1871

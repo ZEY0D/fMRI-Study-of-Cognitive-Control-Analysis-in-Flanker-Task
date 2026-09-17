@@ -1,0 +1,27 @@
+
+/bin/cp /mnt/d/Dr.Makary/fMRI/flanker_dataset/design_3rd_cope3_Voxel.fsf design.fsf
+
+/home/dell/fsl/bin/feat_model design
+
+mkdir .files;cp /home/dell/fsl/doc/fsl.css .files;cp -r /home/dell/fsl/doc/images .files/images
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat2_pre   /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat -gfeatprep
+22824
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3a_flame -j 22824  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat -I 1 -flame1
+23845
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3b_flame -j 23845 -t ./.flame
+24014
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat3c_flame -j 24014  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat -flame3
+24034
+
+/home/dell/fsl/bin/fsl_sub -T 60 -l logs -N feat4_post -j 24034  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat -poststats 1
+24079
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 24079  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat -stop
+24663
+
+/home/dell/fsl/bin/fsl_sub -T 1 -l logs -N feat5_stop -j 24663  /home/dell/fsl/bin/feat /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat/cope1.feat/design.fsf -D /mnt/d/Dr.Makary/fMRI/flanker_dataset/Flanker_3rdLevel_cope3_Voxel.gfeat -stop
+24802

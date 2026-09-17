@@ -1,0 +1,6 @@
+</pre><hr>Initialisation<br><pre>
+
+/home/dell/fsl/bin/fslmaths /mnt/d/Dr.Makary/fMRI/flanker_dataset/sub-08/func/sub-08_task-flanker_run-1_bold prefiltered_func_data -odt float
+Total original volumes = 146
+
+/home/dell/fsl/bin/fslroi prefiltered_func_data example_func 73 1
