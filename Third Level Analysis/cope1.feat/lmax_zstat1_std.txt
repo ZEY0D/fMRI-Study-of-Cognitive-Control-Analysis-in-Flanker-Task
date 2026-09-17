@@ -1,1 +1,0 @@
-Cluster Index	Z	P	-log10(P)	x	y	z	

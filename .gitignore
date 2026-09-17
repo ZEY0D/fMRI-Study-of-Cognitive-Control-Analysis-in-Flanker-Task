@@ -1,0 +1,31 @@
+# MRI / NIfTI
+*.nii
+*.nii.gz
+*.img
+*.hdr
+
+# FSL generated analysis directories
+*.feat/
+*.gfeat/
+*.ica/
+
+# FSL temporary files
+*.mat
+*.con
+*.grp
+*.fts
+*.fsf~
+*.log
+
+# MATLAB / SPM
+*.mex*
+spm_*.m
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store

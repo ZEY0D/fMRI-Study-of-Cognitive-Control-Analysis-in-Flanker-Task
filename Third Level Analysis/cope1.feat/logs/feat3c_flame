@@ -1,4 +1,0 @@
-
-/bin/rm -f stats/zem* stats/zols* stats/mask* ; /bin/mv dof stats
-
-/home/dell/fsl/bin/smoothest -d 25 -m mask -r stats/res4d > stats/smoothness
