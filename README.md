@@ -570,11 +570,11 @@ The project provided practical experience in:
 
 # 🙏 Acknowledgements
 
-This project builds upon established methodologies and educational resources for functional MRI analysis and FSL-based neuroimaging workflows.
+This project was completed as part of the Neuroimaging course supervised by [Dr. Meena M. Makary](https://scholar.google.co.kr/citations?user=y_8D7KEAAAAJ&hl=en) and [Eng. Aya Eyad](https://github.com/Ayamachii) at Cairo University.
 
-Special thanks to the instructors and supervisors involved in the neuroimaging coursework and project.
+The project and scripts were inspired by and builds upon the knowledge gained from the "Andy's Brain Book fMRI Short Course" by [Andrew Jahn](https://medicine.umich.edu/dept/radiology/andrew-jahn-phd)
 
-The analysis workflow was also informed by publicly available educational resources on fMRI analysis and the FSL software ecosystem.
+Course Link: [Andy's Brain Book fMRI Short Course](https://andysbrainbook.readthedocs.io/en/latest/fMRI_Short_Course/fMRI_Intro.html)
 
 ---
 
