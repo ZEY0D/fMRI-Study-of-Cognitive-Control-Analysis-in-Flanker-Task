@@ -167,7 +167,7 @@ MNI152 Standard Space
 ## 🖼️ EPI → MNI Registration
 
 <p align="center">
-  <img src="assets/reg-mni.png" width="850">
+  <img src="assets/reg-mni.jpeg" width="850">
 </p>
 
 *Registration of functional MRI data into standard MNI152 space for group-level analysis.*
@@ -208,7 +208,7 @@ The **Incongruent > Congruent** contrast is particularly relevant to cognitive c
 ## 🖼️ First-Level Results
 
 <p align="center">
-  <img src="assets/first level.png" width="850">
+  <img src="assets/first level.jpeg" width="850">
 </p>
 
 *First-level statistical activation maps showing task-related BOLD responses for the modeled Flanker conditions and contrasts.*
@@ -238,7 +238,7 @@ This stage provides a single subject-level statistical map for each contrast bef
 ## 🖼️ Second-Level Results
 
 <p align="center">
-  <img src="assets/second level.png" width="850">
+  <img src="assets/second level.jpeg" width="850">
 </p>
 
 *Second-level results showing the within-subject aggregation of functional runs.*
@@ -298,7 +298,7 @@ The resulting maps provide a whole-brain view of regions involved in processes r
 ## 🖼️ Group Map
 
 <p align="center">
-  <img src="assets/group map.png" width="900">
+  <img src="assets/group map.jpeg" width="900">
 </p>
 
 *Whole-brain group-level activation maps illustrating the spatial distribution of task-related responses.*
@@ -322,7 +322,7 @@ By comparing incongruent and congruent trials, the analysis highlights brain reg
 ## 🖼️ Incongruent vs. Congruent Difference Map
 
 <p align="center">
-  <img src="assets/difference map.png" width="900">
+  <img src="assets/difference map.jpeg" width="900">
 </p>
 
 *Difference map showing activation associated with increased cognitive interference during incongruent relative to congruent trials.*
