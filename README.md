@@ -167,7 +167,7 @@ MNI152 Standard Space
 ## 🖼️ EPI → MNI Registration
 
 <p align="center">
-  <img src="assets/reg-mni.jpeg" width="850">
+  <img src="assets/reg-mni.jpg" width="850">
 </p>
 
 *Registration of functional MRI data into standard MNI152 space for group-level analysis.*
