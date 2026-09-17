@@ -518,13 +518,13 @@ The repository includes additional project documentation:
 
 ### Detailed Report
 
-`Detailed Report - Zeyad Ashraf.pdf`
+`Detailed Report - Zeyad Ashraf.pdf` ([link](https://drive.google.com/file/d/1AiOlEaisc3FPkbcZ62B5XiHLngB96utw/view?usp=drive_link))
 
 Contains the detailed methodology, analysis workflow, statistical procedures, results, and interpretation.
 
 ### Project Paper
 
-`Paper - Zeyad Ashraf 2026.pdf`
+`Paper - Zeyad Ashraf 2026.pdf` ([link](https://drive.google.com/file/d/1Cj2AMh6rfOsDLvjjb27a_hH3f7HqJtDT/view?usp=drive_link))
 
 Contains the written project documentation and scientific discussion.
 
